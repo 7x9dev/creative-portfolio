@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 1008" width="432" height="1008">
+	<title>up-arrow-svg</title>
+	<style>
+		.s0 { fill: #dbfe00 } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="s0" d="m240 926.1l151-151.1c9.4-9.4 24.6-9.4 34 0 9.3 9.4 9.3 24.6 0 34l-192 192c-9.4 9.3-24.6 9.3-34 0l-192-192c-9.4-9.4-9.4-24.6 0-34 9.4-9.4 24.6-9.4 34 0l151 151.1v-902.1c0-13.3 10.8-24 24-24 13.2 0 24 10.7 24 24z"/>
+</svg>
