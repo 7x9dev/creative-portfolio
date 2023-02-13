@@ -1,6 +1,11 @@
 const audio = document.querySelector("#audio");
 audio.volume = 0.1;
 
+const audioStart = document.querySelector(".hero");
+audioStart.addEventListener("click", () => {
+   audio.play();
+});
+
 const audioBtn = document.querySelector("#playBtn");
 audioBtn.addEventListener("click", () => {
    if (audio.paused) {
