@@ -1,10 +1,26 @@
 const audio = document.querySelector("#audio");
 audio.volume = 0.1;
 
+const audioBtn = document.querySelector("#playBtn");
+audioBtn.addEventListener("click", () => {
+   if (audio.paused) {
+      audio.play();
+   } else {
+      audio.pause();
+   }
+});
+
 gsap.from(".dscr", {
    duration: 2,
    ease: "power1.in",
    delay: 1.5,
+   opacity: 0,
+});
+
+gsap.from(".play-btn", {
+   duration: 2,
+   ease: "power1.in",
+   delay: 2.5,
    opacity: 0,
 });
 

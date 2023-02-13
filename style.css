@@ -143,6 +143,14 @@ h5 {
    color: var(--light-color);
    font-size: 40px;
 }
+.play-btn {
+   display: none;
+   background: transparent;
+   border: none;
+   color: #fff;
+   margin-top: 28px;
+   cursor: pointer;
+}
 
 #work,
 #about {
@@ -454,6 +462,9 @@ footer {
    .dscr-txt {
       font-size: 17px;
    }
+   .play-btn {
+      display: block;
+   }
    #galleryImg {
       width: 410px;
    }
@@ -500,6 +511,9 @@ footer {
    }
    #galleryImg {
       width: 300px;
+   }
+   .btn {
+      margin-left: 10px;
    }
    .banner {
       height: 260px;
