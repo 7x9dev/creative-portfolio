@@ -5,8 +5,10 @@ const audioBtn = document.querySelector("#playBtn");
 audioBtn.addEventListener("click", () => {
    if (audio.paused) {
       audio.play();
+      audioBtn.innerHTML = `<img src="images/play.svg" alt="play button" width="56px" />`;
    } else {
       audio.pause();
+      audioBtn.innerHTML = `<img src="images/pause.svg" alt="pause button" width="56px" />`;
    }
 });
 
