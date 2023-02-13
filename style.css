@@ -436,6 +436,9 @@ footer {
    #galleryImg {
       width: 590px;
    }
+   #galleryImg:hover {
+   box-shadow: 10px 10px 0px var(--primary-color);
+}
 }
 @media all and (max-width: 540px) {
    h1 {
